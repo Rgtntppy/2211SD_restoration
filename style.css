@@ -1,0 +1,60 @@
+h1{
+    margin: 1%;
+    font-size: 100%;
+}
+
+.searchbox{
+    text-align: center;
+}
+
+.gg{
+    font-size: 500%;
+    font-weight: bolder;
+    letter-spacing: -10px;
+    margin-top: 180px;
+    margin-bottom: 20px;
+}
+
+.gg1{
+    color: red;
+}
+
+.gg2{
+    color: green;
+}
+
+.gg3{
+    color: blue;
+}
+
+.gg4{
+    color: yellow;
+}
+
+.searcharea{
+    width: 30%;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.submit{
+    font-size: 60px;
+    width: 5%;
+}
+
+.link{
+    text-align: center;
+    margin: 3%;
+}
+
+.cooking{
+    background-color: #f1f1f1;
+    margin: 20px;
+    padding: 10px;
+}
+
+.table{
+    background-color: #f1f1f1;
+    margin: 20px;
+    padding: 10px;
+}
