@@ -38,8 +38,8 @@ h1{
 }
 
 .submit{
-    font-size: 60px;
-    width: 5%;
+    width: 6%;
+    padding: auto;    
 }
 
 .link{
@@ -57,4 +57,111 @@ h1{
     background-color: #f1f1f1;
     margin: 20px;
     padding: 10px;
+}
+
+.cooking_h2{
+    text-align: center;
+}
+
+.cooking_h2_title{
+    background-color: #FFF566;
+    padding: 2% 3%;
+}
+
+.recipe{
+    background-color: #f1f1f1;
+    font-size: 110%;
+    padding:1%;
+}
+
+.cooking_h3{
+    margin-left: 4%;
+}
+
+.cooking_h3_title{
+    background-color: #fff566;
+    border: inset;
+    padding: 2%;
+}
+
+.materialList_title{
+    border-bottom: solid medium red;
+    font-weight: bolder;
+    margin-left: 10%;
+}
+
+.material_area{
+    float: left;
+    margin: 0 5%;
+}
+
+.material_list{
+    border-left: solid medium red;
+    list-style-type: none ;
+    padding-left: 10px;
+    white-space: nowrap;
+}
+
+.material{
+    margin: 3% 0;
+}
+
+.donenessList_title{
+    border-bottom: solid medium blue;
+    font-weight: bolder;
+    margin-left: 10%;
+}
+
+.doneness_area{
+    float: left;
+    margin: 0 5%;
+}
+
+.doneness_list{
+    border-left: solid medium blue;
+    list-style-type: none ;
+    padding-left: 10px;
+    white-space: nowrap;
+}
+
+.doneness{
+    margin: 3%;
+}
+
+.clearBoth{
+    clear: both;
+}
+
+.cooking_procedure{
+    list-style: none;
+    margin-top: 27%;
+    margin: 0 5%;
+    counter-reset: ol_li;
+}
+
+ol li:before {
+    margin-right: 2%;
+    counter-increment: ol_li;
+    content: counter(ol_li);
+    color: red;
+  }
+
+.procedure{
+    font-weight: bold;
+}
+
+.ol_li_p{
+    margin-top: 0%;
+    margin-left: 3%;
+}
+
+.cooking_variation{
+    border: medium red solid;
+    color: red;
+    margin: 0 5%;
+    padding: 1% 4%;
+}
+
+.cooking_h5_p{
+    margin-top: -2%;
 }
