@@ -162,11 +162,19 @@ ol li:before {
     margin-left: 3%;
 }
 
+.ol_li_img4{
+    height: 15%;
+    width: 15%;
+    float: right;
+    margin-bottom: 5%;
+}
+
 .cooking_variation{
     border: medium red solid;
     color: red;
     margin: 0 5%;
     padding: 1% 4%;
+    clear: both;
 }
 
 .cooking_h5_p{
