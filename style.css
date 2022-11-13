@@ -1,3 +1,10 @@
+.footer{
+    background-color: #D3EDFB;
+    margin: 2%;
+    margin-top: 10%;
+    padding: 1% 2%;
+}
+
 h1{
     margin: 1%;
     font-size: 100%;
@@ -164,4 +171,84 @@ ol li:before {
 
 .cooking_h5_p{
     margin-top: -2%;
+}
+
+.Table_table_all{
+    display: flex;
+    align-items: flex-start;
+    padding: 1%;
+}
+
+.table_material_aria_main{
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.table_material_main{
+    border:"0";
+}
+
+.table_material_aria_sub{
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.table_material_sub{
+    border:"0";
+}
+
+.T_h3{
+    border-bottom:solid medium red;
+    color: red;
+    text-align: left;
+}
+
+.Ttm_name{
+    padding-right: 50px;
+    text-align: left;
+}
+
+.Ttm_information{
+    padding: 5px 10px;
+}
+
+td:last-child{
+    border-left: dotted 2px black;
+}
+
+.Ttm_information{
+    border-bottom: dotted 2px black;
+}
+
+table tr:last-child th{
+    border-bottom: none;   
+}
+
+table tr:last-child td{
+    border-bottom: none;   
+}
+
+.design_all{
+    text-align: center;
+}
+
+.design_front,.design_back{
+    margin: 3%;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+}
+
+.design_front{
+    background-color: skyblue;
+    position: absolute;
+    z-index: 20;
+}
+
+.design_back{
+    background-color: yellow;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    z-index: 10;
 }
