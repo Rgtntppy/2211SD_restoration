@@ -1,3 +1,7 @@
+body{
+    font-size: 120%;
+}
+
 .footer{
     background-color: #D3EDFB;
     margin: 2%;
@@ -155,6 +159,7 @@ ol li:before {
 
 .procedure{
     font-weight: bold;
+    margin-top: 5% 0;
 }
 
 .ol_li_p{
@@ -162,9 +167,15 @@ ol li:before {
     margin-left: 3%;
 }
 
+.ol_li_img3{
+    height: 13%;
+    width: 13%;
+    float: right;
+}
+
 .ol_li_img4{
-    height: 15%;
-    width: 15%;
+    height: 13%;
+    width: 13%;
     float: right;
     margin-bottom: 5%;
 }
@@ -173,6 +184,7 @@ ol li:before {
     border: medium red solid;
     color: red;
     margin: 0 5%;
+    margin-top: 5%;
     padding: 1% 4%;
     clear: both;
 }
